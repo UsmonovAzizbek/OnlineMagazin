@@ -1,0 +1,6 @@
+select {
+    display: none;
+}
+select[name=continent] {
+    display: block;
+}

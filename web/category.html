@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="category.css">
+</head>
+<body>
+<h1 style="text-align: center"> PRODUCT FORM </h1>
+<form action="/category" method="post">
+<p> PRODUCT CATEGOIES</p>
+    <select name="continent">
+        <option value="">Select a categoriy</option>
+        <option value="Computer">Computer</option>
+        <option value="Phone">Phone</option>
+        <option value="iPods">iPods</option>
+        <option value="Watch">Watch</option>
+    </select>
+    <br><br>
+    <select class="country" id="Computer">
+        <option>Select type</option>
+        <option value="Desktop">Desktop</option>
+        <option value="Laptop">Laptop</option>
+        <option value="PC">PC</option>
+        <option value="Mac">Mac</option>
+    </select><br>
+    <br>
+    <select class="country" id="Phone">
+        <option>Select type</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Apple">Apple</option>
+        <option value="Huawei">Huawei</option>
+        <option value="Nokia">Nokia</option>
+        <option value="Sony">Sony</option>
+    </select> <br><br>
+    <select class="country" id="iPods">
+        <option>Select type</option>
+        <option value="Classic">Classic</option>
+        <option value="Mini">Mini</option>
+        <option value="Nano">Nano</option>
+        <option value="Shuffle">Shuffle</option>
+        <option value="Touch">Touch</option>
+    </select> <br><br>
+    <select class="country" id="Watch">
+        <option>Select type</option>
+        <option value="Analog">Analog</option>
+        <option value="Digital">Digital</option>
+        <option value="Smart">Smart</option>
+        <option value="Dress">Dress</option>
+        <option value="Quarts">Quarts</option>
+    </select> <br><br>
+    <select class="city" id="Desktop">
+        <option>Select subtype</option>
+        <option value="Compact">Compact</option>
+    </select> <br><br>
+    <select class="city" id="Laptop">
+        <option>Select subtype</option>
+        <option value="HP">HP</option>
+    </select> <br><br>
+    <select class="city" id="PC">
+        <option>Select subtype</option>
+        <option value="Personal Computer">Personal Computer</option>
+    </select> <br><br>
+    <select class="city" id="Mac">
+        <option>Select subtype</option>
+        <option value="Macbook">Macbook</option>
+    </select>
+    <button type="submit" class="input addbtn">BUY</button>
+    <script src="category.js"></script>
+</form>
+</body>
+</html>
