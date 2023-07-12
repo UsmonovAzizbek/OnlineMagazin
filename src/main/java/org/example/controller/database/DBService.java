@@ -67,7 +67,6 @@ public class DBService {
         }
     }
 
-// azizbek
     public Client registerCopm(String company_name, String password, String contract_year) {
 
         try {
